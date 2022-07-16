@@ -70,7 +70,8 @@ hr {
   justify-content: space-between;
   max-height: 120px;
   align-items: center;
-  margin: 20px 0 0 0;
+  margin: 10px auto 0 auto;
+  padding: 0 20px 0 20px;
 }
 .header__logo {
   max-width: 80px;
@@ -218,14 +219,12 @@ line-height: 125%;
   );
   max-height: 560px;
 }
-.main-hero__container {
-}
 .main-hero__body {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 80px 20px 90px 20px;
+  padding: 80px 0 90px 0;
 }
 .main-hero__title {
   font-weight: 700;
@@ -274,7 +273,7 @@ line-height: 125%;
 }
 @media (max-width: 920px) {
   .main-hero__body {
-    padding: 50px 20px 60px 20px;
+    padding: 50px 0 60px 0;
   }
   .main-hero__title {
     font-size: 54px;
@@ -373,7 +372,7 @@ line-height: 125%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 80px 20px;
+  padding: 80px 0;
 }
 .main-inspire__body > *:not(:last-child) {
   margin: 0 0 47px 0;
@@ -420,7 +419,7 @@ line-height: 125%;
 }
 @media (max-width: 920px) {
   .main-inspire__body {
-    padding: 50px 20px;
+    padding: 50px 0;
   }
   .main-inspire__title {
     font-size: 48px;
@@ -478,7 +477,7 @@ line-height: 125%;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 80px 20px;
+  padding: 80px 0;
 }
 .main-quiz__title {
   font-weight: 700px;
@@ -543,7 +542,7 @@ font-size: 60px;
     max-width: 240px;
   }
   .main-quiz__body {
-    padding: 65px 20px;
+    padding: 65px 0;
 }
 }
 @media (max-width: 768px) {
@@ -551,7 +550,7 @@ font-size: 60px;
     max-width: 200px;
   }
   .main-quiz__body {
-  padding: 50px 20px;
+  padding: 50px 0;
   }
   .main-quiz__title {
     font-size: 45px;
@@ -598,7 +597,7 @@ font-size: 60px;
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  padding: 30px 20px 45px 20px;
+  padding: 30px 0 45px 0;
 }
 .footer__socials {
   
@@ -696,7 +695,7 @@ font-size: 14px;
     display: flex;
     flex-direction: column;
     max-height: 300px;
-    padding: 30px 20px 35px 20px;
+    padding: 30px 0 35px 0;
   }
   .footer-totop {
     order: 1;
