@@ -21,6 +21,6 @@ function quiz() {
     alert("Great! I'll text you soon))");
   }
 
-  let button = document.querySelector(".btn");
+  let button = document.querySelector(".main-quiz__btn");
   button.addEventListener("click", quiz);
 
