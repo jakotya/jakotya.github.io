@@ -664,9 +664,7 @@ letter-spacing: -0.02em;
 .footer-totop__link:hover {
   color: #7b61ff;
 }
-.footer__email {
-  margin: 0 0 30px 0;
-}
+
 .footer-email {
 }
 .footer-email__title {
@@ -704,6 +702,9 @@ font-size: 14px;
     font-size: 17px;
   }
   .footer__socials {
+    margin: 0 0 30px 0;
+  }
+  .footer__email {
     margin: 0 0 30px 0;
   }
 }
